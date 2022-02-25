@@ -1,5 +1,5 @@
 {% set name = "unifuncnet" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/PedroMTQ/UniFuncNet/archive/refs/tags/{{ version }}.tar.gz
-  sha256: db3a4b803404751fda7d2c82959bca0405593f885292083b1f3db7165278236f
+  sha256: 90c6ea0c63b559f0441d052a1f17e7d03eec8025d48e7b8c009e2d3072a51676
 
 build:
   number: 0
@@ -23,11 +23,11 @@ requirements:
     - setuptools >=42
     - wheel
   run:
-    - beautifulsoup4 
-    - lxml 
+    - beautifulsoup4
+    - lxml
     - python >=3.9
     - requests
-    
+
 test:
   imports:
     - unifuncnet
