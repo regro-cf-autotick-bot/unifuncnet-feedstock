@@ -5,7 +5,7 @@ Home: https://github.com/PedroMTQ/UniFuncNet
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/unifuncnet-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/unifuncnet-feedstock/blob/main/LICENSE.txt)
 
 Summary: Biological network annotation tool.
 
@@ -21,8 +21,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15462&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/unifuncnet-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15462&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/unifuncnet-feedstock?branchName=main">
       </a>
     </td>
   </tr>
